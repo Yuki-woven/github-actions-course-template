@@ -19,7 +19,7 @@ jobs:
         run:
           npm install
           npm run build
-      - uses: actions/uploud-artfact@master
+      - uses: actions/upload-artfact@master
         with:
           name: webpack artifacts
           path: public/
